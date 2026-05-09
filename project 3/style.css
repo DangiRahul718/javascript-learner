@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: Georgia, serif;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 80px;
+}
+
+#banner{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#clock{
+    background-color: chocolate;
+    color: white;
+    font-size: 40px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin: auto;
+
+}
